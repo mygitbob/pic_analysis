@@ -1,0 +1,13 @@
+Um die Orte und Zeitpunkte aus den Fotos zu extrahieren, könnten Sie die folgenden Schritte durchführen:
+
+Extrahieren Sie die GPS-Koordinaten aus den Exif-Metadaten jedes Fotos. Hierfür können Sie eine Python-Bibliothek wie exifread oder piexif verwenden.
+
+Verwenden Sie die GPS-Koordinaten, um den ungefähren Standort jedes Fotos zu bestimmen. Hierfür können Sie eine Geocoding-API wie die von Google oder OpenStreetMap verwenden. Achten Sie darauf, die API-Aufrufe sinnvoll zu begrenzen, um die Kosten im Auge zu behalten.
+
+Extrahieren Sie die Adressen aus den Briefumschlägen auf den Fotos. Hierfür könnten Sie eine Texterkennungs-Bibliothek wie Tesseract OCR verwenden.
+
+Verknüpfen Sie die Adressen mit den GPS-Koordinaten und Standortdaten, um den ungefähren Zeitpunkt jedes Fotos zu bestimmen. Hierfür könnten Sie beispielsweise eine öffentliche Datenbank von Postleitzahlen verwenden, um die Zeitzone des jeweiligen Standorts zu ermitteln.
+
+Optional könnten Sie die Ergebnisse in eine interaktive Karte visualisieren, um die Orte und Zeitpunkte der Fotos auf einen Blick zu sehen. Hierfür könnten Sie eine Bibliothek wie Folium oder Mapbox verwenden.
+
+Die Datenanalyse umfasst also im Wesentlichen die Extraktion von GPS-Koordinaten und Adressen aus den Fotos, die Verknüpfung dieser Daten, um den ungefähren Zeitpunkt jedes Fotos zu bestimmen, und optional die Visualisierung der Ergebnisse in einer interaktiven Karte. Dabei müssen Sie auch beachten, dass die GPS-Koordinaten nicht immer exakt sind und die Adressen auf den Briefumschlägen ebenfalls Fehler enthalten können.

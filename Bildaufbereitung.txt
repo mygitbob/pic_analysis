@@ -1,0 +1,14 @@
+Eine Möglichkeit, den Code hinsichtlich wechselnder Lichtverhältnisse auf dem Ausgangsbild zu verbessern, ist die Verwendung von Techniken zur Vorverarbeitung des Bildes, um den Kontrast zu erhöhen und das Rauschen zu reduzieren. Dies kann dazu beitragen, dass das Modell die relevanten Merkmale im Bild besser erkennt.
+
+Hier sind einige Techniken, die Sie ausprobieren können:
+
+Histogramm-Ausgleich: Histogramm-Ausgleich ist eine Technik zur Anpassung des Kontrasts in einem Bild. Es verteilt die Pixelintensitäten gleichmäßiger im Histogramm und kann dazu beitragen, dass schwache Merkmale im Bild besser sichtbar werden.
+
+Filterung: Filterung ist eine Technik zur Reduzierung von Rauschen im Bild. Eine mögliche Option ist die Anwendung eines Medianfilters, um das Rauschen zu reduzieren.
+
+Schwellenwertbildung: Schwellenwertbildung ist eine Technik zur Segmentierung von Bildern, bei der Pixel, die einen bestimmten Schwellenwert überschreiten, als Vordergrund und Pixel, die unter diesem Schwellenwert liegen, als Hintergrund klassifiziert werden. Es kann dazu beitragen, den Briefumschlag vom Hintergrund des Bildes zu unterscheiden und seine Erkennung zu erleichtern.
+
+Farbkorrektur: Eine Farbkorrektur kann dazu beitragen, Farbverzerrungen im Bild zu korrigieren, die durch unterschiedliche Lichtverhältnisse verursacht werden. Eine einfache Möglichkeit zur Farbkorrektur ist die Verwendung von Automatischer Weißabgleich (AWB), der die Farbtemperatur automatisch an die Beleuchtungsbedingungen anpasst.
+
+NEU
+Die Farbkorrektur wird durch eine Kombination aus automatischem Weißabgleich und adaptiver Histogramm-Equalization durchgeführt, um Farbverzerrungen aufgrund unterschiedlicher Lichtverhältnisse auszugleichen. Die Schwellenwertbildung wird durchgeführt, um den Briefumschlag vom Hintergrund zu trennen, und erhöht so die Präzision der Vorhersage.
