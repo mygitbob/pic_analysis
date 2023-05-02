@@ -1,1 +1,1 @@
-# pic_analysis
+# Datenanalyse - IHK Projekt
